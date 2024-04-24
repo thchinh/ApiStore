@@ -7,7 +7,7 @@ namespace ApiStore.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class ProductControllers : ControllerBase
+public class ProductController : ControllerBase
 {
     private readonly ApplicationDbContext _context;
 
