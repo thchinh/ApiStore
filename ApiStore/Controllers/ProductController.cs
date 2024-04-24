@@ -11,7 +11,7 @@ public class ProductController : ControllerBase
 {
     private readonly ApplicationDbContext _context;
 
-    public ProductControllers(ApplicationDbContext context)
+    public ProductController(ApplicationDbContext context)
     {
         _context = context;
     }
