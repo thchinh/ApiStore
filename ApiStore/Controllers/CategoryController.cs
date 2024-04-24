@@ -7,7 +7,7 @@ namespace ApiStore.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class CategoryControllers : ControllerBase
+public class CategoryController : ControllerBase
 {
     private readonly ApplicationDbContext _context;
 
