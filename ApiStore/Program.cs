@@ -41,5 +41,6 @@ if (app.Environment.IsDevelopment())
 app.UseAuthorization();
 
 app.MapControllers();
+app.MapGet("/", () => "Hello ForwardedHeadersOptions!");
 
 app.Run();
