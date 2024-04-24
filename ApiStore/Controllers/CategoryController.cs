@@ -11,7 +11,7 @@ public class CategoryController : ControllerBase
 {
     private readonly ApplicationDbContext _context;
 
-    public CategoryControllers(ApplicationDbContext context)
+    public CategoryController(ApplicationDbContext context)
     {
         _context = context;
     }
